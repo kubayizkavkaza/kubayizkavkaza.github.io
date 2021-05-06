@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin:0;
+}
+.menu {
+    background-color: #45015d;
+    width: 7%;
+    height: 1000px;
+    padding: 15px;
+    border-radius: 8px;
+    position: fixed;
+    top: 0;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin:12px
+}
+.menu h3 {
+    color:white
+}
+.content {
+    width: 79%;
+    margin: 80px 0 0 240px;
+}
+hr {
+    border:4px solid #45015d;
+    border-radius: 4px;
+}
+h2 {
+    color: #45015d;
+    font-size: 33px;
+}
+h1 {
+    font-size: 53px;
+    font-weight: 400;
+}
+.showcase img{
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+    opacity: 0.7;
+}
+.showcase img:hover {
+    opacity: 2
+}
+.description {
+    background-color: #f1f1f1;
+    padding: 2px 16px 5px;
+    border-radius: 10px;
+}
+.member {
+    display: inline-block;
+    width: 30%;
+}
+.member img {
+    width: 100%;
+    border-radius: 10px;
+    filter:grayscale(0.3)
+}
+.prof {
+    color: gray
+}
+.tarifs li {
+    list-style-type: none;
+    padding: 23px;
+    border-bottom: 3px solid #DDDDDD;
+    border-radius: 12px;
+}
+.basic button {
+    border:none;
+    outline: none;
+    border-radius: 12px;
+    padding: 13px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.t1 {
+    color:#45015d;
+    background-color: white;
+}
+.t1:hover {
+    background-color: #45015d;
+    color: white
+}
+.t2 {
+    color: white;
+    background-color:red;
+}
+.t2:hover {
+    color: red;
+    background-color: white;
+}
+.tarifs ul {
+    background-color: #F1F1F1;
+    display: inline-block;
+    width: 100%;
+    padding:0;
+    text-align: center;
+}
+.roke {
+    background-color: #45015d;
+    color:white;
+}
+.boke {
+    background-color: red;
+    color:white;
+}
+.basic {
+    display: inline-block;
+    width: 40%;
+    padding: 0 8px;
+}
+.money {
+    font-size: 24px;
+    font-weight: 600;
+}
+.basic ul li:nth-child(1){
+    font-size: 24px;
+    font-weight: 600;
+    padding: 45px;
+}
+form {
+    width: 24px;
+}
+input {
+    width: 1200px;
+    height: 30px;
+}
+.end {
+    background-color: #45015d;
+    color: white;
+    border:none;
+    outline: none;
+    border-radius: 12px;
+    padding: 13px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px;
+    width: 1200px;   
+}
+.ntbro {
+    background-color: #F1F1F1;
+    text-align: right;
+    padding: 23px;
+}
+.ntbro a {
+    color: black
+}
